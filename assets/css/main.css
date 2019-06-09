@@ -1961,60 +1961,9 @@
 				width: 100%;
 			}
 
-/* video */
-.iframe {
-    border-radius: 4px;
-    border: 0;
-    display: inline-block;
-    position: relative;
-}
-
-.iframe iframe {
-    border-radius: 4px;
-    display: block;
-}
-
-.iframe.left, .iframe.right {
-    max-width: 40%;
-}
-
-.iframe.left iframe, .iframe.right iframe {
+.image.main video {
     width: 100%;
 }
-
-.iframe.left {
-    float: left;
-    padding: 0 1.5em 1em 0;
-    top: 0.25em;
-}
-
-.iframe.right {
-    float: right;
-    padding: 0 0 1em 1.5em;
-    top: 0.25em;
-}
-
-.iframe.fit {
-    display: block;
-    margin: 0 0 2em 0;
-    width: 100%;
-}
-
-.iframe.fit iframe {
-    width: 100%;
-}
-
-.iframe.secondary {
-    display: block;
-    margin: 0 0 3em 0;
-    width: 100%;
-}
-
-.iframe.secondary iframe {
-    width: 100%;
-}
-    
-
 
 /* List */
 
@@ -2468,6 +2417,14 @@
 				border-top-right-radius: 4px;
 			}
 
+.thumbnails a video {
+    display: block;
+    width: 100%;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+
 			.thumbnails a h3 {
 				margin: 1em;
 			}
@@ -2499,6 +2456,10 @@
 			.thumbnails {
 				margin: 0 0 2em -1.5em;
 			}
+            
+            .thumbnails video {
+                margin: 0 0 1.5em 0;
+            }
 
 				.thumbnails a {
 					margin: 0 0 1.5em 0;
@@ -2523,6 +2484,10 @@
 			.thumbnails {
 				display: block;
 			}
+            
+            .thumbnails video {
+                margin: 0 0 2em 0 !important;
+            }
 
 				.thumbnails a {
 					margin: 0 0 2em 0 !important;
@@ -2542,6 +2507,11 @@
 				}
 
 		}
+
+.center {
+    width: 100%;
+    
+}
 
 
 /* Poptrox */
